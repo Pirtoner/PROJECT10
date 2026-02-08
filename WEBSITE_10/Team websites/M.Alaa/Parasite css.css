@@ -1,0 +1,128 @@
+﻿body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #4caf50;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 8px solid #2e7d32;
+}
+
+header h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.column-left {
+    flex: 1.5;
+    min-width: 300px;
+}
+
+.column-right {
+    flex: 1.5;
+    min-width: 250px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: Georgia, serif;
+    color: #2e7d32;
+}
+
+.highlight-box {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-left: 6px solid #4caf50;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.poster-img {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #1a1a1a;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+}
+
+.wiki-link {
+    color: #2e7d32;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #2e7d32;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+.back-button{
+    display: inline-block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.parasite-back-button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
