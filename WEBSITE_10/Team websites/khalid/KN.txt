@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knives Out - Student 2</title>
+    
+    <style>
+        /* Using Web-Safe Fonts instead of Google Library */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f1ea;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #e6b800;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 8px solid #c2185b;
+        }
+        header h1 {
+            /* Using Georgia as a classy alternative to Playfair Display */
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 4rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .column-left {
+            flex: 1.5;
+            min-width: 300px;
+        }
+        .column-right {
+            flex: 1.5;
+            min-width: 250px;
+            text-align: center; /* Centers the large image and video */
+        }
+        h2, h3 {
+            font-family: Georgia, serif;
+            color: #c2185b;
+        }
+        .highlight-box {
+            background-color: #fff9c4;
+            padding: 20px;
+            border-left: 6px solid #e6b800;
+            font-style: italic;
+            margin: 20px 0;
+        }
+        /* The Large Image Styling */
+        .poster-img {
+            width: 450px; 
+            height: auto; 
+            display: block; 
+            margin: 20px auto; 
+            border: 5px solid #1a1a1a;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 12px;
+        }
+        td { padding: 12px; }
+        .imdb-link {
+            color: #c2185b;
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid #c2185b;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Knives Out</h1>
+        <p>A Whodunit Masterclass</p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="column-left">
+                <h2>The Mystery of the Thrombeys</h2>
+                
+                <p><em>Knives Out</em> is a modern take on the classic "Whodunit" mystery. When the wealthy crime novelist <strong>Harlan Thrombey</strong> is found dead in his estate just after his 85th birthday, everyone in his eccentric family becomes a suspect.</p>
+
+                <p>The plot follows the brilliant detective <strong>Benoit Blanc</strong> as he untangles a web of lies, greed, and family secrets. Unlike traditional mysteries, this film flips the script by showing us part of the truth early on, then challenging us to see if the "good heart" of one person can survive a house full of "knives out."</p>
+
+                <div class="highlight-box">
+                    "A detective at the scene of a crime, is like a conductor in front of an orchestra." — Benoit Blanc
+                </div>
+
+                <p><strong>Favourite Character:</strong> Benoit Blanc (Detective)</p>
+                
+                <h3>Why Benoit Blanc is my Favourite Character</h3>
+                <ul>
+                    <li>His Unique Methods
+                        <ul>
+                            <li>The "Donut Hole" Theory: Finding the center of the mystery.</li>
+                            <li>Observation: Watching how characters react to stress.</li>
+                        </ul>
+                    </li>
+                    <li>His Moral Values
+                        <ul>
+                            <li>Protection: He looks out for those who are innocent.</li>
+                            <li>Honesty: He follows the truth, no matter where it leads.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>Life Lesson: The Power of Integrity</h2>
+                <p>The biggest lesson I learned from this movie is that <strong>kindness is not a weakness</strong>. While every other character is trying to trick each other to get the inheritance, Marta Cabrera succeeds simply because she is a good person who cares about others.</p>
+
+                <p><a href="https://www.imdb.com/title/tt8946378/" target="_blank" class="imdb-link">Visit IMDb for More Details</a></p>
+            </div>
+
+            <div class="column-right">
+                <h3>Official Trailer</h3>
+                <video width="100%" controls poster="POSTER2.png">
+                  <source src="trailer.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+
+                <hr style="margin: 30px 0; border: 1px solid #ddd;">
+
+                <h3>Movie Poster</h3>
+                <img src="POSTER2.png" alt="Knives Out Poster" class="poster-img">
+                <p style="font-style: italic;"></p>
+            </div>
+        </div>
+
+        <h2>Movie Summary Table</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Information</th>
+            </tr>
+            <tr>
+                <td>Director</td>
+                <td>Rian Johnson</td>
+            </tr>
+            <tr>
+                <td>Genre</td>
+                <td>Mystery / Crime / Comedy</td>
+            </tr>
+            <tr>
+                <td>Key Theme</td>
+                <td>Goodness vs. Greed</td>
+            </tr>
+            <tr>
+                <td>My Rating</td>
+                <td>★★★★★ (5/5)</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer style="text-align: center; padding: 20px;">
+        <p>KHALID HOSHAM | TL2L-10 | CCT 1114 Project</p>
+    </footer>
+
+</body>
+</html>
